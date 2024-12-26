@@ -13,7 +13,7 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 
 3.- Se configuran los parámetros del firewall (8089 y 8443 /tcp) por defecto de manera automática
 
-4.- Muestra los certificados existentes en el directorio /opt/tak/certs/files
+4.- Muestra los certificados existentes en el directorio /opt/tak/certs/files (si los hay)
 
 5.- Crea certificados de varios tipos:
 - Autoridad Certificadora (CA)
