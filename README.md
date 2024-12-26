@@ -1,10 +1,6 @@
-
        git clone https://github.com/casper0169/TAKSERVER
-       
        chmod 777 * 
-       
        cd TAKSERVER/
-       
        chmod 777 *
 
 ====================================
