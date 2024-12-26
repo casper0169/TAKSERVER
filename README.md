@@ -7,8 +7,11 @@ cd TAKSERVER/
 chmod 777 *
 
 ====================================
+
        MENÚ PRINCIPAL - SERVIDOR TAK
+       
 ====================================
+
 1. Instalación del Servidor TAK
 2. Definir dirección IPv4 privada estática
 3. Definir los puertos del Firewall
