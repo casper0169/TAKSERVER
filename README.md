@@ -34,6 +34,8 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 
 9.- Cierra el programa
 
-![Ver Video] (https://www.youtube.com/watch?v=d9En-q7l1bQ&autoplay=1)
+## Video 1 (Autoplay)
+[![Ver Video](https://img.youtube.com/vi/ID_DEL_VIDEO/0.jpg)](https://www.youtube.com/watch?v=d9En-q7l1bQ&autoplay=1)
+
 
 
