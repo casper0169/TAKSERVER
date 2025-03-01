@@ -5,19 +5,19 @@ import time  # Importado para manejar el intervalo entre comandos
 
 def mostrar_menu_principal():
     os.system('clear')
-    print("====================================")
-    print("       MENÚ PRINCIPAL - SERVIDOR TAK")
-    print("====================================")
-    print("1. Instalación del Servidor TAK")
-    print("2. Definir dirección IPv4 privada estática")
-    print("3. Definir los puertos del Firewall")
-    print("4. Mostrar certificados existentes")
-    print("5. Crear certificados")
-    print("6. Eliminar certificados")
-    print("7. Gestión de usuarios en grupos")
-    print("8. URLs de interés")
-    print("9. Salir")
-    print("====================================")
+    print("|============================================|")
+    print("|       MENÚ PRINCIPAL - SERVIDOR TAK        |")
+    print("|============================================|")
+    print("| 1. Instalación del Servidor TAK            |")
+    print("| 2. Definir dirección IPv4 privada estática |")
+    print("| 3. Definir los puertos del Firewall        |")
+    print("| 4. Mostrar certificados existentes         |")
+    print("| 5. Crear certificados                      |")
+    print("| 6. Eliminar certificados                   |")
+    print("| 7. Gestión de usuarios en grupos           |")
+    print("| 8. URLs de interés                         |")
+    print("| 9. Salir                                   |")
+    print("|============================================|")
 
 def ejecutar_comando(comando):
     print(f"Ejecutando: {comando}")
@@ -50,6 +50,7 @@ def instalar_tak():
     ejecutar_comando("sudo apt update && sudo apt full-upgrade -y")
     ejecutar_comando("sudo update-alternatives --config java")
     ejecutar_comando("sudo apt install -y maven gradle")
+    time.sleep(2)
     print("Por favor, ingresa el nombre del archivo instalable del servidor TAK (por ejemplo, 'takserver-installer.deb'): ")
     ejecutable_tak = input("Nombre del archivo instalable: ").strip()
     if os.path.exists(f"./{ejecutable_tak}"):
@@ -61,6 +62,8 @@ def instalar_tak():
     ejecutar_comando("sudo systemctl daemon-reload")
     ejecutar_comando("sudo systemctl start takserver")
     ejecutar_comando("sudo systemctl enable takserver")
+    ejecutar_comando("sudo systemctl restart takserver")
+    time.sleep(2)
     archivo_metadata = "/opt/tak/certs/cert-metadata.sh"
     print(f"Editando {archivo_metadata} automáticamente...")
     try:
@@ -70,7 +73,7 @@ def instalar_tak():
         print(f"Error al editar {archivo_metadata}: {e}")
     print(f"Abriendo {archivo_metadata} para su edición...")
     os.system(f"sudo nano {archivo_metadata}")
-    print("¡Enhorabuena! El Servidor TAK se instaló correctamente.")
+    print("\033[1m\033[32m********** ¡ENHORABUENA! INSTALACIÓN DEL SERVIDOR TAK COMPLETADO. **********\033[0m")
 
 def configurar_ipv4_estatica():
     print("Configura la dirección IPv4 privada estática en /etc/netplan/00-installer-config.yaml.")
@@ -96,7 +99,7 @@ def configurar_ipv4_estatica():
             print(f"Error al ejecutar '{comando}': {e}. Verifica la configuración e intenta nuevamente.")
             break
         time.sleep(2)
-    print("¡Enhorabuena! Configuración de red completada.")
+    print("\033[1m\033[32m********** ¡ENHORABUENA! CONFIGURACIÓN DE RED COMPLETADA. **********\033[0m")
 
 def configurar_firewall():
     print("Configurando el Firewall...")
@@ -106,7 +109,7 @@ def configurar_firewall():
     ejecutar_comando("sudo ufw allow 8443/tcp")
     ejecutar_comando("sudo ufw status verbose")
     ejecutar_comando("sudo ufw reload")
-    print("¡Enhorabuena! Puertos configurados correctamente.")
+    print("\033[1m\033[32m********** ¡ENHORABUENA! CONFIGURACIÓN DEL FIREWALL COMPLETADA. **********\033[0m")
 
 def mostrar_certificados():
     directorio_certificados = "/opt/tak/certs/files"
