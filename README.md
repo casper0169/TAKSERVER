@@ -34,7 +34,7 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 
 9.- Cierra el programa
 
-## Video Automatización TAK SERVER
+## Video Automatización TAK SERVER (sin sonido)
 [![Ver Video](https://img.youtube.com/vi/d9En-q7l1bQ/0.jpg)](https://www.youtube.com/watch?v=d9En-q7l1bQ)
 
 
