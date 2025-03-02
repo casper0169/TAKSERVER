@@ -45,7 +45,7 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 9️⃣ Cierra el programa
 
 ## Enlace de Google Drive para descargar los recursos 👇
-[!(https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=drive_link)
+(https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=drive_link)
 
 ## ⚔🦅Video Automatización TAK SERVER 🦅⚔
 [![Ver Video](https://img.youtube.com/vi/im2YOjh49EE/0.jpg)](https://youtu.be/im2YOjh49EE)
