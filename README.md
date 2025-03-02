@@ -13,6 +13,7 @@ El uso del programa ATAK.py resulta extremadamente eficaz para automatizar la In
 El Menú que se abrirá permitirá elegir entre estas opciones:
 
 1.- Se ejecutará automáticamente la instalación del Servidor TAK, pero necesitas tener el documento takserver_5.3-RELEASE4_all.deb (que lo encontrarás en el apartado: Enlace de Google Drive para descargar los recursos)
+
 2.- Se configura la tarjeta de red enp0s3 con los valores que se mostrarán en la plantilla o con personalización libre
 
 3.- Se configuran los parámetros del firewall (8089 y 8443 /tcp) por defecto de manera automática
