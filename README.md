@@ -38,7 +38,7 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 
 9.- Cierra el programa
 
-## Enlace de Google Drive para descargar los recursos:
+## Enlace de Google Drive para descargar los recursos
 https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=drive_link
 
 ## Video Automatización TAK SERVER
