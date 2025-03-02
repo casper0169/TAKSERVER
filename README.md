@@ -51,17 +51,17 @@ SERVIDOR ATAK
 
 > DOCUMENTACIÓN
 
- > Instalación del Takserver oficial.pdf
+  > Instalación del Takserver oficial.pdf
 
- > Preparacion de la Maquina Virtual - 1.pdf
+  > Preparacion de la Maquina Virtual - 1.pdf
      
 > RECURSOS
 
- > takserver_5.3-RELEASE24_all.deb        > INSTALABLE PARA EL SERVIDOR TAK
+  > takserver_5.3-RELEASE24_all.deb        > INSTALABLE PARA EL SERVIDOR TAK
 
- > ubuntu-24.04.2-live-server-amd64.iso   > IMAGEN PARA INSTALAR EL SERVIDOR DE UBUNTU
+  > ubuntu-24.04.2-live-server-amd64.iso   > IMAGEN PARA INSTALAR EL SERVIDOR DE UBUNTU
 
- > WinTAK-5.3.0.159-civ-installer-x64.exe > INSTLABLE PARA TENER WINDOWS EN UN ORDENADOR WINDOWs
+  > WinTAK-5.3.0.159-civ-installer-x64.exe > INSTLABLE PARA TENER WINDOWS EN UN ORDENADOR WINDOWs
 
 ## ⚔🦅Video Automatización TAK SERVER 🦅⚔
 [![Ver Video](https://img.youtube.com/vi/im2YOjh49EE/0.jpg)](https://youtu.be/im2YOjh49EE)
