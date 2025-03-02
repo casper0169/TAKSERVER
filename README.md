@@ -1,8 +1,12 @@
+## Pasos para copiar el repositorio y acceder a su contenido
+       
        git clone https://github.com/casper0169/TAKSERVER
        chmod 777 * 
        cd TAKSERVER/
        chmod 777 *
        python3 ATAK.py
+
+## Breve resumen
        
 Se recomienda usar el programa ATAK.py para automatizar la instalación y al mismo tiempo seguir los pasos indicados en el documento Instalación del Takserver oficial.pdf, ya que el documento Preparacion de la Maquina Virtual - 1.pdf está destinado a la creación de la Máquina Virtual que albergará el Servidor TAK y su personalización más básica
 
