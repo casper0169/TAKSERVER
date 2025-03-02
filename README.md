@@ -67,7 +67,7 @@ https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=dri
 
 markdown
 
-![Demo] (uso-facil-repositorio.gif)
+![Demo] (assets/uso-facil-repositorio.gif)
 
 
 ## ⚔🦅Video Automatización TAK SERVER 🦅⚔
