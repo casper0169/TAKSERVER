@@ -49,13 +49,13 @@ https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=dri
 
 📂 SERVIDOR ATAK
 
-       📂 DOCUMENTACIÓN
+  📂 DOCUMENTACIÓN
 
 * Instalación del Takserver oficial.pdf
 
 * Preparacion de la Maquina Virtual - 1.pdf
 
-       📂 RECURSOS
+  📂 RECURSOS
 
 * takserver_5.3-RELEASE24_all.deb        > INSTALABLE PARA EL SERVIDOR TAK
 
