@@ -22,22 +22,25 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 
 5.- Crea certificados de varios tipos:
 
-       👉 Autoridad Certificadora (CA)
-       👉 Cliente ó Servidor
+👉 Autoridad Certificadora (CA)
+
+👉 Cliente ó Servidor
 
 6.- Elmina todos los certificados del directorio op/tak/certs/files junto con sus extensiones de archivo (pero no los revoca)
 
 7.- Gestiona los certificados en cada grupo:
 
-       👉 Administrador web
-       👉 Otros grupos
-              👉 Entrada, Salida ó Ambos
-       👉 Elimina certificados de grupos
+👉 Administrador web
+
+👉 Otros grupos (Entrada, Salida ó Ambos)
+
+👉 Elimina certificados de grupos
 
 8.- Muestra las URLs de interés:
 
-       👉 https://localhost:8443/Matri/metrics/index.html
-       👉 https://localhost:8443/webtak/index.html
+👉 https://localhost:8443/Matri/metrics/index.html
+
+👉 https://localhost:8443/webtak/index.html
 
 9.- Cierra el programa
 
