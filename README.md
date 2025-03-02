@@ -48,12 +48,19 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=drive_link
 
 SERVIDOR ATAK
+
   > DOCUMENTACIÓN
+
      > Instalación del Takserver oficial.pdf
-     > Preparacion de la Maquina Virtual - 1.pdf 
+     
+     > Preparacion de la Maquina Virtual - 1.pdf
+     
   > RECURSOS
+
      > takserver_5.3-RELEASE24_all.deb        > INSTALABLE PARA EL SERVIDOR TAK
+
      > ubuntu-24.04.2-live-server-amd64.iso   > IMAGEN PARA INSTALAR EL SERVIDOR DE UBUNTU
+
      > WinTAK-5.3.0.159-civ-installer-x64.exe > INSTLABLE PARA TENER WINDOWS EN UN ORDENADOR WINDOWs
 
 ## ⚔🦅Video Automatización TAK SERVER 🦅⚔
