@@ -1,4 +1,4 @@
-## Pasos para copiar el repositorio y acceder a su contenido
+## Copiar el repositorio y acceder a su contenido
        
        git clone https://github.com/casper0169/TAKSERVER
        chmod 777 * 
