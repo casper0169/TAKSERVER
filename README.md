@@ -6,7 +6,7 @@
        chmod 777 *
        python3 ATAK.py
 
-## Breve resumen
+## Breve resumen del contenido
        
 Se recomienda usar el programa ATAK.py para automatizar la instalación y al mismo tiempo seguir los pasos indicados en el documento Instalación del Takserver oficial.pdf, ya que el documento Preparacion de la Maquina Virtual - 1.pdf está destinado a la creación de la Máquina Virtual que albergará el Servidor TAK y su personalización más básica
 
@@ -38,9 +38,8 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 
 9.- Cierra el programa
 
-## Enlace para descargar el instalable del Servidor TAK:
+## Enlace de Google Drive para descargar el instalable del Servidor TAK, la .iso de Ubuntu y la Máquina Virtual completa:
 https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=drive_link
-
 
 ## Video Automatización TAK SERVER
 [![Ver Video](https://img.youtube.com/vi/im2YOjh49EE/0.jpg)](https://youtu.be/im2YOjh49EE)
