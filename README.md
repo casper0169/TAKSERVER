@@ -27,7 +27,7 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 6.- Elmina todos los certificados del directorio op/tak/certs/files junto con sus extensiones de archivo
 
 7.- Gestiona los certificados en cada grupo:
-- Administrador
+- Administrador web
 - Otros grupos
        - Entrada, Salida ó Ambos
 - Elimina certificados de grupos
