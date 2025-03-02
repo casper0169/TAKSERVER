@@ -8,7 +8,7 @@
 
 ## Breve resumen del contenido
        
-El uso del programa ATAK.py resulta extremadamente eficaz para automatizar la Instalación, al mismo tiempo se pueden seguir los pasos indicados en el documento Instalación del Takserver oficial.pdf, ya que el documento Preparacion de la Maquina Virtual - 1.pdf está destinado a la creación de la Máquina Virtual que albergará el Servidor TAK y su personalización más básica
+El uso del programa ATAK.py resulta extremadamente eficaz para automatizar la Instalación, al mismo tiempo se pueden seguir los pasos indicados en el documento Instalación del Takserver oficial.pdf, ya que el documento Preparacion de la Maquina Virtual - 1.pdf está destinado a la creación de la Máquina Virtual que albergará el Servidor TAK y su personalización más básica (TAK wallpaper.png como imagen de usuario y bandera españa + TAK.png para usarla de fondo de pantalla del servidor)
 
 El Menú que se abrirá permitirá elegir entre estas opciones:
 
