@@ -12,7 +12,7 @@ El uso del programa ATAK.py resulta extremadamente eficaz para automatizar la In
 
 El Menú que se abrirá permitirá elegir entre estas opciones:
 
-1.- Se ejecutará automáticamente la instalación del Servidor TAK, pero necesitas tener el documento takserver_5.3-RELEASE4_all.deb (que lo encontrarás en el apartado: Enlace de Google Drive para descargar los recursos)
+1.- Se ejecutará automáticamente la instalación del Servidor TAK, pero necesitas tener el documento takserver_5.3-RELEASE4_all.deb (que lo encontrarás en el apartado: Enlace de Google Drive para descargar los recursos 👇)
 
 2.- Se configura la tarjeta de red enp0s3 con los valores que se mostrarán en la plantilla o con personalización libre
 
@@ -38,10 +38,10 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 
 9.- Cierra el programa
 
-## Enlace de Google Drive para descargar los recursos
+## Enlace de Google Drive para descargar los recursos 👇
 https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=drive_link
 
-## Video Automatización TAK SERVER
+## Video Automatización ⚔🦅 TAK SERVER ⚔🦅
 [![Ver Video](https://img.youtube.com/vi/im2YOjh49EE/0.jpg)](https://youtu.be/im2YOjh49EE)
 
 
