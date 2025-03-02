@@ -65,9 +65,6 @@ https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=dri
 📦 **WinTAK-5.3.0.159-civ-installer-x64.exe**  
   _INSTALABLE PARA TENER WINDOWS EN UN ORDENADOR WINDOWS_
 
-![Demo] ((https://github.com/casper0169/TAKSERVER/commit/86744d2f29ccc13af74e35b807f1669f0ebab843)
-
-
 ## ⚔🦅Video Automatización TAK SERVER 🦅⚔
 [![Ver Video](https://img.youtube.com/vi/im2YOjh49EE/0.jpg)](https://youtu.be/im2YOjh49EE)
 
