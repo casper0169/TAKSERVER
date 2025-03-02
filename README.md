@@ -52,6 +52,7 @@ https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=dri
 ## 📂 DOCUMENTACIÓN
 
 📄 **Instalación del Takserver oficial.pdf**
+
 📄 **Preparación de la Máquina Virtual - 1.pdf**
 
 ## 📂 RECURSOS
