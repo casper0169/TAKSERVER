@@ -24,7 +24,7 @@ El Menú que se abrirá permitirá elegir entre estas opciones:
 - Autoridad Certificadora (CA)
 - Cliente ó Servidor
 
-6.- Elmina todos los certificados del directorio op/tak/certs/files junto con sus extensiones de archivo
+6.- Elmina todos los certificados del directorio op/tak/certs/files junto con sus extensiones de archivo (pero no los revoca)
 
 7.- Gestiona los certificados en cada grupo:
 - Administrador web
