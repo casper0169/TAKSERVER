@@ -50,14 +50,17 @@ https://drive.google.com/drive/folders/1hiVebNQwVulF26Do28aj8Jov90cyAzny?usp=dri
 # 📂 SERVIDOR ATAK
 
 ## 📂 DOCUMENTACIÓN
+
 📄 **Instalación del Takserver oficial.pdf**
 📄 **Preparación de la Máquina Virtual - 1.pdf**
 
 ## 📂 RECURSOS
 📦 **takserver_5.3-RELEASE24_all.deb**  
   _INSTALABLE PARA EL SERVIDOR TAK_
+  
 📦 **ubuntu-24.04.2-live-server-amd64.iso**  
   _IMAGEN PARA INSTALAR EL SERVIDOR DE UBUNTU_
+  
 📦 **WinTAK-5.3.0.159-civ-installer-x64.exe**  
   _INSTALABLE PARA TENER WINDOWS EN UN ORDENADOR WINDOWS_
 
