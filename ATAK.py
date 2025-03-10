@@ -1,7 +1,7 @@
 import os
 import subprocess
 import socket
-import time  # Importado para manejar el intervalo entre comandos
+import time 
 
 def mostrar_menu_principal():
     os.system('clear')
@@ -139,7 +139,6 @@ def mostrar_certificados():
         return  # Regresar al menú principal
     
     print("\033[1m\033[32 MOSTRANDO TODO EL CONTENIDO DEL DIRECTORIO: /opt/tak/certs/files: \033[0m")
-    # Listar todos los archivos en la carpeta
     certificados = os.listdir(directorio_certificados)
     
     if certificados:
@@ -184,10 +183,8 @@ def crear_certificados():
 
 def eliminar_certificados():
     certificado = input("\033[1m\033[32m INDIQUE EL NOMBRE DEL [CERTIFICADO] QUE DESEA ELIMINAR (sin extensión): \033[0m").strip()
-    # Definir las extensiones a eliminar
     extensiones = ['.csr', '.jks', '.key', '.p12', '.pem', '-trusted.pem']
     
-    # Comprobar si alguno de los archivos existe en el directorio
     archivos_existentes = []
     for ext in extensiones:
         archivo = f"/opt/tak/certs/files/{certificado}{ext}"
