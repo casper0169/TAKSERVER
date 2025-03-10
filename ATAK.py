@@ -51,7 +51,7 @@ def instalar_tak():
     time.sleep(2)
     ejecutar_comando("sudo apt update && apt full-upgrade -y")
     ejecutar_comando("sudo apt auto-remove -y")
-    ejecutar_comando("echo -e "* soft nofile 32768\n* hard nofile 32768" | sudo tee -a /etc/security/limits.conf > /dev/null")
+    ejecutar_comando('echo -e "* soft nofile 32768\n* hard nofile 32768" | sudo tee -a /etc/security/limits.conf > /dev/null')
     ejecutar_comando("sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'")
     ejecutar_comando("wget -O- https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/postgresql.org.gpg > /dev/null")
     ejecutar_comando("sudo apt update && apt full-upgrade -y")
