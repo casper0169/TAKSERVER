@@ -49,13 +49,14 @@ def obtener_ip_local():
 def instalar_tak():
     print("\033[1m\033[32m SE VA A PROCEDER CON LA ISNTALACIÓN AUTOMÁTICA DEL SERVIDOR TAK... \033[0m")
     time.sleep(2)
-    ejecutar_comando("sudo apt update && apt full-upgrade -y")
+    ejecutar_comando("sudo apt update -y")
+    ejecutar_comando("sudo apt upgrade -y")
     ejecutar_comando("sudo apt auto-remove -y")
-    ejecutar_comando('echo -e "* soft nofile 32768\n* hard nofile 32768" | sudo tee -a /etc/security/limits.conf > /dev/null')
+    ejecutar_comando('echo -e "* soft nofile 32768\n* hard nofile 32768" | sudo tee -a /etc/security/limits.conf')
     ejecutar_comando('sudo sh -c "echo \\"deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main\\" > /etc/apt/sources.list.d/pgdg.list"')
-    ejecutar_comando("wget -O- https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/postgresql.org.gpg > /dev/null")
-    ejecutar_comando("sudo apt update && apt full-upgrade -y")
-    ejecutar_comando("sudo apt auto-remove -y")
+    ejecutar_comando('wget -O- https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/postgresql.org.gpg > /dev/null')
+    ejecutar_comando("sudo apt update -y")
+    ejecutar_comando("sudo apt upgrade -y")
     ejecutar_comando("sudo apt install openjdk-17-jre")
     time.sleep(2)
     print("\033[1m\033[32m POR FAVOR, INGRESA EL NOMBRE DEL ARCHIVO INSTALABLE DEL SERVIDOR TAK (.deb): \033[0m")
@@ -76,7 +77,7 @@ def instalar_tak():
             time.sleep(1)
     except Exception as e:
         print(f"Error al editar {archivo_metadata}: {e}")
-    print(f"\033[1m\033[32m ABRIENDO {archivo_metadata} PARA SU EDICIÓN ... \033[0m")
+    print(f"\033[1m\033 [32m ABRIENDO {archivo_metadata} PARA SU EDICIÓN ... \033[0m")
     time.sleep(1)
     os.system(f"sudo nano {archivo_metadata}")
     time.sleep(1)
@@ -88,7 +89,7 @@ def instalar_tak():
     print("\033[1m\033[32m********** ¡ENHORABUENA! INSTALACIÓN DEL SERVIDOR TAK COMPLETADO. **********\033[0m")
 
 def configurar_ipv4_estatica():
-    print("033[1m\033[32m A CONTINUACIÓN SE LE VA A FACILITAR UN CONJUNTO DE LINEAS DE COMANDO QUE LE AYUDARÁN CON LA CONFIGURACIÓN DE LA DIRECCIÓN IPv4 PRIVADA ESTÁTICA EN EL DIRECTORIO: /etc/netplan/00-installer-config.yaml. \033[0m")
+    print("\033[1m\033[32m A CONTINUACIÓN SE LE VA A FACILITAR UN CONJUNTO DE LINEAS DE COMANDO QUE LE AYUDARÁN CON LA CONFIGURACIÓN DE LA DIRECCIÓN IPv4 PRIVADA ESTÁTICA EN EL DIRECTORIO: /etc/netplan/00-installer-config.yaml. \033[0m")
     time.sleep(3)
     print("EJEMPLO DE CONFIGURACIÓN:\n"
           "network:\n"
