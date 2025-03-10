@@ -69,13 +69,17 @@ def instalar_tak():
     time.sleep(2)
     archivo_metadata = "/opt/tak/certs/cert-metadata.sh"
     print(f"\033[1m\033[32m EDITANDO {archivo_metadata} AUTOMÁTICMENTE... \033[0m")
+    time.sleep(1)
     try:
         with open(archivo_metadata, 'a') as file:
             file.write("\n# CONFIGURACIÓN AUTOMÁTICA AÑADIDA POR EL script\n ")
+            time.sleep(1)
     except Exception as e:
         print(f"Error al editar {archivo_metadata}: {e}")
     print(f"\033[1m\033[32m ABRIENDO {archivo_metadata} PARA SU EDICIÓN ... \033[0m")
+    time.sleep(1)
     os.system(f"sudo nano {archivo_metadata}")
+    time.sleep(1)
     ejecutar_comando("sudo systemctl daemon-reload")
     ejecutar_comando("sudo systemctl start takserver.service")
     ejecutar_comando("sudo systemctl enable takserver.service")
